@@ -14,7 +14,7 @@ My friend and teammate in this project, Sidhant Gupta originally came up with th
 
 ## Motivation [[1]](#references)
 
-Deploying soft-wheeled robots on ground has always been a challenge.
+Deploying soft-wheeled robots on ground has always been a challenge. The work by Almusa et al. [[1]](#references) was used as foundation to progress the concept of soft wheels in mobile robots. They combined soft silicone-based materials with rigid components (grousers) to balance strong traction from the hard structure with the shock-absorbing qualities of the soft material.
 
 <figure style="text-align: center;">
     <img src="images\grousered_wheel.png">
@@ -23,9 +23,11 @@ Deploying soft-wheeled robots on ground has always been a challenge.
     </figcaption>
 </figure>
 
+We took a step by further by reducing rigit structures exposed to the terrain as described in following sections.
+
 ## Making
 
-For building components for the soft wheel, we utilised the CMU makerspace called [TechSpark](https://engineering.cmu.edu/techspark/) in the College of Engineering.
+For building components for the soft wheel, we utilised the CMU makerspace called [TechSpark](https://engineering.cmu.edu/techspark/) in the College of Engineering. For details on assembly and individual components, refer [publication](#publication).
 
 <figure style="text-align: center;">
     <img src="images\deflated_inflated.png">
@@ -47,11 +49,12 @@ I was in-charge of making plans for testing the soft wheel for:
     </figcaption>
 </figure>
 
-We were able to get our hands on the carousel-like testing-bed at the [Robotics Institute](https://www.ri.cmu.edu/), the same that was used by the authors of this [paper](#references). After re-connecting some wires and playing around with the controls using an Arduino board, we were able to get it working. The rig was originally designed to test wheel performance on sand, which served as the default surface in all experiments.
+We were able to get our hands on the carousel-like testing-bed at the [Robotics Institute](https://www.ri.cmu.edu/), the same that was used by the authors of this [paper](#references). After re-connecting some wires and playing around with the controls using an Arduino board, we were able to get it working.
 
-The traction was characterised from the imprints created by the wheel in the sand.
+The rig was originally designed to test wheel performance on sand, which served as the default surface in all experiments.
 
-The slipping study used data from wheel encoders which we had connected to the Arduino.
+- The traction was characterised from the imprints created by the wheel in the sand.
+- The slipping study used data from wheel encoders which we had connected to the Arduino.
 
 <image style="text-align: center;">
     <img src="images\wheel_testing.png">
